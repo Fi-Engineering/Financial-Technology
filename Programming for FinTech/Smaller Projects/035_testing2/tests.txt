@@ -1,0 +1,54 @@
+a_a aa bbbbb
+aaaaa a bAA
+aaaaa a_bca
+aaaaa bbbbb
+ aaaa ccccc bbbbb
+aaaaa
+abcbc abcbc
+  2345 abvab   
+a123a b23aa
+aaaaa 12345
+a123aa 12345
+aaaaa b23ab
+12345   
+ababa 1234
+aaa aaa
+a$!bb a$baa 
+aaaaa $$$!!
+ababa a$aaa 
+$!023 aaaaa
+$!023 ababa
+$$$$$ ccbaa
+aabac babax 123$2
+12345 aaaaa
+123
+aaa
+ababc
+
+aaaaa bbbbb 
+aa dd ff
+AAAAA abbaba
+AAAAA aaaaa
+AABAc  AsnAA
+AAAAA BBBBB
+AA234 A4bca
+12345  AAAAA
+AAAAA 12345
+AAABB $$$$$
+AAAbb 12$!5
+$!234
+ababc AABBC 
+{aaaa abcbc
+@@@@@ 12344
+12345 $$%!!
+$$$$! $@!^&
+11112  aaaab
+11111  aab ab 
+AAAA1 AAAAA
+AAAAA    aaabb
+ bcde 12345
+      aaaaa
+      abcde  
+aaaaaaaaaaa
+aaaa bbbb
+

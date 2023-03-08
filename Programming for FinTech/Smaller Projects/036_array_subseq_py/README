@@ -1,0 +1,34 @@
+#from distutils.command.install_egg_info import to_filename ***ignore this***
+
+
+1. Create a file called max_seq.py and write the function:
+   def max_seq(l):
+   """
+   max_seq returns a the maximum increasing contiguous subsequence in the list.
+   
+   Args:
+   l(list): list of numbers
+
+   Returns:
+   the maxiumum increasing contiguous subsequence as a list. If the l is empty,
+   an empty list is returned
+
+   Raises:
+   TypeError is the function contains an item that is not arithmetically 
+   compatible with ints and floats
+   """
+   
+   For example, if the list passed in were
+   [ 1, 2, 1, 3, 5, 8, 2, 4, 6, 9]
+   this function would return [1, 3, 5, 8]
+
+2. Create a file "test_max_seq.py" that contains at least three unittest 
+   test cases that test your program.  Your test class should be called
+   "TestMaxSequence"
+
+3. Submit your code for max_seq.py and test_max_seq.py
+
+Hint:
+  Can you abstract a complex step out into a simple function?
+  The TypeError will occur with the right test case, you just need to
+  write a test case that will cause it to be raised.

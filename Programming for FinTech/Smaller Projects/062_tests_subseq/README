@@ -1,0 +1,43 @@
+For this assignment, you will be writing testcases for
+your next assignment (the instructions for that assignment
+can be found in next-README).  That function asks you to create an 
+implementation for
+size_t  maxSeq(int * array, size_t n);
+(The above line is considered a prototype which provides information to
+the compiler about a function that has not yet been defined in the source
+code - either it is in another source code file or defined later in the file.)
+Unlike your previous testing assignments, you will be writing
+C code to perform the tests.  In particular, you should create a file
+called test-subseq.c, which has a main function that performs the tests.
+If the maxSeq function passes all test cases, your program should exit
+with EXIT_SUCCESS.  If the maxSeq function fails any test case, your program
+should exit with EXIT_FAILURE.  Note that your program's exit status is the
+return value from main, if main returns.  However, you can make your program
+exit immediately (wherever it is) by calling exit, passing in either EXIT_SUCCESS
+or EXIT_FAILURE, e.g.,
+exit(EXIT_FAILURE);
+A few notes about doing this assignment:
+  (1) You will want to write the prototype for maxSeq in your test-subseq.c
+      file before you call maxSeq, to let the compiler know the signature
+      of this function, and that the implementation will be found elsewhere.
+  (2) One correct and many broken implementations of maxSeq are provided
+      in the form of compiled object files in /usr/local/ece551/subseq/.
+      Of these, subseq.o is correct, and the others are broken.
+  (3) We have provided run_all.sh, which iterates over the object
+      files in /usr/local/ece551/subseq, and compiles your test code
+      and links it with each object file.  It will make sure that
+      the correct implementation passes all of your test cases,
+      and that each broken implementation fails at least one test case.
+  (4) You may want to create a helper function:
+       void run_check(unsigned x, unsigned y, unsigned expected_ans)
+      which calls maxSeq, checks that the result is expected_ans,
+      and if not, prints a message and calls exit(EXIT_FAILURE).
+  (5) You need your own way to provide the expected answers.
+      You might come up with them by hand, or find some other
+      means to produce them.  However, there is no direct way
+      to invoke the correct implementation.
+  (6) As before, these broken implementations were created by making
+      small modifications to the correct implementation.  All of them
+      can be found by reasonably crafted tests.
+      
+You should submit test-subseq.c when you are finished.

@@ -1,0 +1,22 @@
+Review your algorithm from AoP problem 1.8 [page 21] (as solved during the 'algorithm' assignment)
+Review your Python function for solving the AoP problem (as solved during the 'algorithm_py' assignment)
+Write a C function, 'series18(int N)' that computes and prints the correct output, e.g.:
+4.   
+5.       > series18(1)
+6.       -1 0 3
+7.       > series18(3)
+8.       -9 -8 -5 0 7 16 27 40 55
+Use the following C main program to test your function:
+10. 
+11.int main(int argc, char *argv[]) {
+12.    if (argc < 2) {
+13.        printf("N not specified\n");
+14.        printf("usage: series18 N\n");
+15.        return 1;
+16.    }
+17.    int n = atoi(argv[1]);
+18.    series18(n);
+19.    return 0;
+20.}
+Test the code, make sure it works for, e.g.  N=6, N=7, and N=10.
+Put your function and the main program in a file "series18.c". Add it to git, commit, push, and request grading. 
