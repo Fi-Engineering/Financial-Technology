@@ -1,0 +1,40 @@
+Grading at 09/23/2022:16:11:55.405148
+For commit ID ac09a6820f71cb7e9a3f7a55b29a6c0902f708cc
+Grading at Fri Sep 23 12:11:54 PM EDT 2022
+.Traceback (most recent call last):
+  File "/home/ft510db/graderbase/work/nai5.032_election_eval_py.YyZnok/election.py", line 242, in <module>
+    process(argv)
+  File "/home/ft510db/graderbase/work/nai5.032_election_eval_py.YyZnok/election.py", line 214, in process
+    state_info = parse_state_information(argv[1])
+  File "/home/ft510db/graderbase/work/nai5.032_election_eval_py.YyZnok/election.py", line 34, in parse_state_information
+    with open(filename) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'test'
+..F....
+======================================================================
+FAIL: test_simple_states_diff (__main__.TestElectionEvalPregrader)
+Tests Simple States
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ft510db/graderbase/work/nai5.032_election_eval_py.YyZnok/grader.py", line 66, in test_simple_states_diff
+    self.run_program_provided_data("Simple States","Simple_States.txt","SimpleVotes1.txt")
+  File "/home/ft510db/graderbase/work/nai5.032_election_eval_py.YyZnok/grader.py", line 59, in run_program_provided_data
+    self.assertEqual(student_result.stdout, solution_result.stdout, test_name+ ": output does not match the expected output.")
+AssertionError: 'W: P[189 chars]ion with 22 votes\nCandidate A won X with 60.00% of the vote\n' != 'W: P[189 chars]ion with 17 votes\nCandidate A won X with 60.00% of the vote\n'
+  W: Population - 300, Electoral Votes: 3
+  X: Population - 1,000, Electoral Votes: 10
+  Y: Population - 500, Electoral Votes: 5
+  Z: Population - 400, Electoral Votes: 4
+- Candidate A wins the election with 22 votes
+?                                    ^^
++ Candidate A wins the election with 17 votes
+?                                    ^^
+  Candidate A won X with 60.00% of the vote
+ : Simple States: output does not match the expected output.
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.446s
+
+FAILED (failures=1)
+Grading at Fri Sep 23 12:11:54  2022
+
+Overall Grade: 80

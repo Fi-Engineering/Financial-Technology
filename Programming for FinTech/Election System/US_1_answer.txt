@@ -1,0 +1,53 @@
+Alabama: Population - 4,858,979, Electoral Votes: 9
+Alaska: Population - 738,432, Electoral Votes: 3
+Arizona: Population - 6,828,065, Electoral Votes: 11
+Arkansas: Population - 2,978,204, Electoral Votes: 6
+California: Population - 39,144,818, Electoral Votes: 55
+Colorado: Population - 5,456,574, Electoral Votes: 9
+Connecticut: Population - 3,590,886, Electoral Votes: 7
+Delaware: Population - 945,934, Electoral Votes: 3
+District of Columbia: Population - 672,228, Electoral Votes: 3
+Florida: Population - 20,271,272, Electoral Votes: 29
+Georgia: Population - 10,214,860, Electoral Votes: 16
+Hawaii: Population - 1,431,603, Electoral Votes: 4
+Idaho: Population - 1,654,930, Electoral Votes: 4
+Illinois: Population - 12,859,995, Electoral Votes: 20
+Indiana: Population - 6,619,680, Electoral Votes: 11
+Iowa: Population - 3,123,899, Electoral Votes: 6
+Kansas: Population - 2,911,641, Electoral Votes: 6
+Kentucky: Population - 4,425,092, Electoral Votes: 8
+Louisiana: Population - 4,670,724, Electoral Votes: 8
+Maine: Population - 1,329,328, Electoral Votes: 4
+Maryland: Population - 6,006,401, Electoral Votes: 10
+Massachusetts: Population - 6,794,422, Electoral Votes: 11
+Michigan: Population - 9,922,576, Electoral Votes: 16
+Minnesota: Population - 5,489,594, Electoral Votes: 10
+Mississippi: Population - 2,992,333, Electoral Votes: 6
+Missouri: Population - 6,083,672, Electoral Votes: 10
+Montana: Population - 1,032,949, Electoral Votes: 3
+Nebraska: Population - 1,896,190, Electoral Votes: 5
+Nevada: Population - 2,890,845, Electoral Votes: 6
+New Hampshire: Population - 1,330,608, Electoral Votes: 4
+New Jersey: Population - 8,958,013, Electoral Votes: 14
+New Mexico: Population - 2,085,109, Electoral Votes: 5
+New York: Population - 19,795,791, Electoral Votes: 29
+North Carolina: Population - 10,042,802, Electoral Votes: 15
+North Dakota: Population - 756,927, Electoral Votes: 3
+Ohio: Population - 11,613,423, Electoral Votes: 18
+Oklahoma: Population - 3,911,338, Electoral Votes: 7
+Oregon: Population - 4,028,977, Electoral Votes: 7
+Pennsylvania: Population - 12,802,503, Electoral Votes: 20
+Rhode Island: Population - 1,056,298, Electoral Votes: 4
+South Carolina: Population - 4,896,146, Electoral Votes: 9
+South Dakota: Population - 858,469, Electoral Votes: 3
+Tennessee: Population - 6,600,299, Electoral Votes: 11
+Texas: Population - 27,469,114, Electoral Votes: 38
+Utah: Population - 2,995,919, Electoral Votes: 6
+Vermont: Population - 626,042, Electoral Votes: 3
+Virginia: Population - 8,382,993, Electoral Votes: 13
+Washington: Population - 7,170,351, Electoral Votes: 12
+West Virginia: Population - 1,844,128, Electoral Votes: 5
+Wisconsin: Population - 5,771,337, Electoral Votes: 10
+Wyoming: Population - 586,107, Electoral Votes: 3
+Candidate A wins the election with 374 votes
+Candidate A won District of Columbia with 86.15% of the vote

@@ -1,0 +1,6 @@
+W: Population - 300, Electoral Votes: 3
+X: Population - 1,000, Electoral Votes: 10
+Y: Population - 500, Electoral Votes: 5
+Z: Population - 400, Electoral Votes: 4
+Candidate A wins the election with 17 votes
+Candidate A won X with 60.00% of the vote
