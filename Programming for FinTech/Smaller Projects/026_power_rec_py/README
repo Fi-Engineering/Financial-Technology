@@ -1,0 +1,16 @@
+Write a recursive function power(x, y) which computes x
+to the y power.   Note that while 0 to the 0 is undefined in mathematics,
+we specify that 0 to the 0 shall be 1 for this function.  
+
+You may assume y is a nonnegative integer.
+
+Save it into a file called power.py
+
+To test your work, write a file named test_power.py
+This file should import your function. We have used this pattern in
+previous assignments.
+
+You MUST use recursion (no iteration).
+
+Once you've validated your recursive implementation of power,
+submit power.py for grading.

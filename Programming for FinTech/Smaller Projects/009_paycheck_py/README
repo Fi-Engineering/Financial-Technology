@@ -1,0 +1,44 @@
+This will be your next programming assignment.  You will need to write
+a Python script that scripts that implements Exercise #1 from the
+notebook "06-Control": 
+
+Write a program that computes a simple weekly paycheck for an individual. 
+Prompt the user to enter the number of hours worked and the pay rate. 
+If an individual works over 40 hours, then the individual is paid at 1.5 
+times the hourly rate for the hours worked over 40. Print the initial 
+total. Of course, the government taxes the individual's pay. Assume the 
+tax rate is 20%. Print the amount withheld for taxes. Then print the 
+net amount to be paid to the individual.
+
+So that we can automatically grade programs, you must follow specific
+conditions as documented here:
+1. The Python file must be named "paycheck.py".  We have provided an
+   initial template for this file.
+2. You need to use the following as prompts within the input functions:
+   "How many hours did the employee work?"
+   "What is the employee's pay rate?"
+3. Follow the print style in the last line of paycheck.py
+4. Use the following strings to label the values:
+   "Total pay:"
+   "Taxes:"
+   "Net pay:"
+5. You may assume we will provide valid input (positive numbers)
+
+On this platform, you can execute your program with
+
+python3 paycheck.py
+
+Sample Executions:
+$ python3 paycheck.py
+How many hours did the employee work?55
+What is the employees pay rate?100
+Total pay: 6250.0
+Taxes: 1250.0
+Net pay: 5000.0
+
+$ python3 paycheck.py
+How many hours did the employee work?38.25
+What is the employees pay rate?7.75
+Total pay: 296.4375
+Taxes: 59.2875
+Net pay: 237.15

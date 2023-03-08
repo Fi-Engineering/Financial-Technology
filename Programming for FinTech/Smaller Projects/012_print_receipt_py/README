@@ -1,0 +1,35 @@
+This will be your next programming assignment.  You will need to write
+a Python script that scripts that implements the following problem: 
+
+Write a function with the following declaration - 
+def print_receipt(subtotal, tax_rate, tip_rate):
+
+That prints the following:
+ Subtotal: $     10.00
+      Tax: $      0.50
+      Tip: $      2.00
+            ==========
+    Total: $     12.50
+with the call: print_receipt(10.00, .05, .2)
+Use formatting for all of the numbers and equal signs.
+
+So that we can automatically grade programs, you must follow specific
+conditions as documented here:
+1. The Python file must be named "print_bill.py". The provided file only
+   has the function declaration.
+2. We will directly call your function and evaluate the result.
+3. You should not have any input/output within your print_bill.py file.
+   We will be directly calling your function.
+4. You must provide a docstring so that others can understand
+   what your function does.
+
+To test your program, you may use test.py
+This file will make a few sample calls to your function.
+
+Sample Execution
+$ python3 test.py
+Subtotal: $     10.00
+     Tax: $      0.50
+     Tip: $      2.00
+           ==========
+   Total: $     12.50

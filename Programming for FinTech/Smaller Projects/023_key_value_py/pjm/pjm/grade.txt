@@ -1,0 +1,35 @@
+Grading at 09/15/2022:18:27:25.800556
+For commit ID 004c70e1dcda60630ae3b419064d3ee67a69b813
+Grading at Thu Sep 15 02:27:25 PM EDT 2022
+.EE.
+======================================================================
+ERROR: test_provided_data_and_arguments_1 (__main__.TestKeyValue)
+Test against the provided data - 1
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/dev/fd/4", line 105, in test_provided_data_and_arguments_1
+  File "/dev/fd/4", line 85, in run_program_as_functions
+  File "/home/ft510db/graderbase/work/nai5.023_key_value_py.I42MEN/key_value.py", line 114, in write_output
+    sortedDict = sorted(counts[v].items(), key=value_getter, reverse=True)
+KeyError: 0
+
+======================================================================
+ERROR: test_provided_data_and_arguments_2 (__main__.TestKeyValue)
+Test against the provided data - 2
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/dev/fd/4", line 110, in test_provided_data_and_arguments_2
+  File "/dev/fd/4", line 85, in run_program_as_functions
+  File "/home/ft510db/graderbase/work/nai5.023_key_value_py.I42MEN/key_value.py", line 114, in write_output
+    sortedDict = sorted(counts[v].items(), key=value_getter, reverse=True)
+KeyError: 0
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.005s
+
+FAILED (errors=2)
+Grading at Thu Sep 15 14:27:25  2022
+list1b.txt: contents matched
+list2c.txt: contents matched
+
+Overall Grade: FAILED

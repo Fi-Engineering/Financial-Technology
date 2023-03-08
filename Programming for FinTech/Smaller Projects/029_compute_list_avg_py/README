@@ -1,0 +1,13 @@
+Write the functionality for the compute_average function
+defined in compute_list_avg.py
+We have provided the method docstring which describes the behavior the
+function needs to implement.
+
+We have created a unittest module in test_compute_list.py   
+You can run the tests in this file with -
+
+  python -m unittest test_compute_list.py 
+
+
+Once your compute_average function passes the test cases, 
+submit your work for grading.

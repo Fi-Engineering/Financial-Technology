@@ -1,0 +1,50 @@
+Open the code2.py file you have in this directory.
+You will see one function, print_triangle, along with some 
+code that will call that function.
+
+The print_triangle function has an algorithm written as comments, but 
+there is no code. You should translate this algorithm to code.
+
+After the function, there are three statements:
+  - printing a message of a triangle of height 4
+  - calling print_triangle to print the triangle
+  - printing the total number of starts in that triangle
+    (returned by the print_triangle function).
+
+There is also a comment asking you to write a few more statements
+to do the same thing for a triangle of height 7.
+Add the code to do this.
+
+Execute your code with python3 code2.py
+
+If your program has any errors, the interpreter will do its best
+to describe what is wrong. If a problem exists, look at the code 
+and try to see where you did not follow the syntax rules from 
+the different notebooks.  The line number and message it gives
+may help you find the problem.  If you cannot find the problem 
+after a few minutes, ask for help.
+
+If your code has legal syntax, your program should run and produce
+output.  Compare this output with the output we expect.
+
+If they are the same, you should commit, push, and grade.
+
+If they are not, you should see if you can fix the problem 
+(and ask for help if you cannot).
+
+Expected output:
+Here is a triangle with height 4
+*
+**
+***
+****
+That triangle had 10 total stars
+Here is a triangle with height 7
+*
+**
+***
+****
+*****
+******
+*******
+That triangle had 28 total stars

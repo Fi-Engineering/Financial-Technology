@@ -1,0 +1,32 @@
+1. Open the provided array_max.py file and write the function:
+      def array_max(array);
+      """
+      Finds the largest number in the list
+      Ignores elements that are not an int or a float
+
+      Args:
+         array (list): list of numbers (either float or int)
+
+      Returns:
+      Largest number in the list.  None if array is empty
+      or if array is not a list.
+      """
+
+2. You may not use the built-in max() as part of your solution
+   You'll also find that it does not work if a list contains
+   incompatible types such as ints and strings.
+   It will work on ints and floats in a list as they are 
+   compatible for performing comparisons and arithmetic.
+
+3. We have provided code which will print test cases and your
+   function's response for them.
+
+4. We presented the built-in function type() in the notebook
+   "Types,Values,Variables,Names".
+   You can test if a variable "a" is None with
+   a is None
+
+5. Test your code.  You should get 99, -3, 425, None, None, None, 42.5
+   for the 7 tests provided.
+
+6. Submit your code.

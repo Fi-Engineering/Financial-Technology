@@ -1,0 +1,22 @@
+This problem is intended to help you practice translating from handwritten 
+algorithms to Python code.
+
+Here is what you need to do:
+
+ (1) Review your algorithm from AoP problem 1.8 [page 21]    
+     (as solved during the 'algorithm' assignment)
+
+ (2) Write a Python function, 'series18(N)' that computes and 
+     prints the correct output, e.g.:
+     > series18(1)
+     -1 0 3
+     > series18(3)
+     -9 -8 -5 0 7 16 27 40 55
+
+ (3) Test the code, make sure it works for, e.g.  N=6, N=7, and N=10.
+     You can use test.py
+     python3 test.py
+
+ (4) Put your function in a file  "series18.py"
+
+ (5) Submit "series18.py" for grading when you are complete.
