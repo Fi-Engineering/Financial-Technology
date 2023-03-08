@@ -1,0 +1,65 @@
+Grading at 12/09/2022:21:59:09.256513
+For commit ID cd232359fbb88aa5adfc30ac951db23051e6b37c
+Grading at Fri Dec  9 04:58:46 PM EST 2022
+
+Compiling efficient_frontier
+rm -f *.o  *~ efficient_frontier
+g++ -c --std=gnu++98 -pedantic -Wall -Werror -ggdb3 -o parse.o parse.cpp
+g++    -c -o optimizer.o optimizer.cpp
+g++ -c --std=gnu++98 -pedantic -Wall -Werror -ggdb3 -o main.o main.cpp
+g++ -o efficient_frontier --std=gnu++98 -pedantic -Wall -Werror -ggdb3 parse.o optimizer.o main.o
+
+Running your test cases
++-----------------------------------------------------------------------+
+Test case efficient_frontier universe_err1.csv correlation.csv 
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Test case efficient_frontier universe_err2.csv correlation.csv 
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Test case efficient_frontier universe_err3.csv correlation.csv 
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Test case efficient_frontier universe_err4.csv correlation.csv 
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Test case efficient_frontier universe_err5.csv correlation.csv 
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Test case efficient_frontier universe_err6.csv correlation.csv 
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Test case efficient_frontier universe_err7.csv correlation.csv 
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Test case efficient_frontier universe.csv correlation_err1.csv 
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Test case efficient_frontier universe.csv correlation_err2.csv 
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Test case efficient_frontier universe.csv correlation_err3.csv 
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Test case efficient_frontier universe.csv correlation_err4.csv 
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Test case efficient_frontier universe.csv correlation_err5.csv 
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Test case efficient_frontier universe.csv correlation_err6.csv 
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Test case efficient_frontier universe.csv correlation_err7.csv 
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Test case efficient_frontier universe.csv correlation_err8.csv 
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Test case efficient_frontier universe.csv correlation_err9.csv 
+Your program successfully indicated a failure case
+
+You have PASSED all of your test cases
+Keep adding test cases until you are satisfied
+
+Overall Grade: NO GRADE YET

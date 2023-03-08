@@ -1,0 +1,66 @@
+Grading at 11/12/2022:19:37:14.023519
+For commit ID 785a83eb93b483c4116ebf511437ede54f21602c
+Grading at Sat Nov 12 02:37:03 PM EST 2022
+rm -f *.o  *~ correl_matrix
+g++ -c --std=gnu++98 -pedantic -Wall -Werror -ggdb3 -o asset.o asset.cpp
+g++ -c --std=gnu++98 -pedantic -Wall -Werror -ggdb3 -o parse.o parse.cpp	
+g++ -c --std=gnu++98 -pedantic -Wall -Werror -ggdb3 -o main.o main.cpp
+g++ -o correl_matrix --std=gnu++98 -pedantic -Wall -Werror -ggdb3 asset.o parse.o main.o
++-----------------------------------------------------------------------+
+Test case 1
+Command line argument error
+Your program successfully indicated a failure case
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 2
+Command line argument error
+Your program successfully indicated a failure case
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 3
+Empty file: No such file or directory
+Your program successfully indicated a failure case
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 4
+columns do not match expected count: Success
+Your program successfully indicated a failure case
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 5
+invalid data first line : Success
+Your program successfully indicated a failure case
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 6
+Valgrind reported memory errors
+Your file matched the expected output
+                                                         [7/11]
++-----------------------------------------------------------------------+
+Test case 7
+Valgrind reported memory errors
+Your file matched the expected output
+                                                         [7/11]
++-----------------------------------------------------------------------+
+Test case 8
+Valgrind reported memory errors
+Your file matched the expected output
+                                                         [7/11]
++-----------------------------------------------------------------------+
+Test case 9
+Valgrind reported memory errors
+Your file matched the expected output
+                                                         [7/11]
++-----------------------------------------------------------------------+
+Test case 10
+Valgrind reported memory errors
+Your file matched the expected output
+                                                         [7/11]
++-----------------------------------------------------------------------+
+Test case 11
+Valgrind reported memory errors
+Your file matched the expected output
+                                                         [7/10]
++-----------------------------------------------------------------------+
+
+Overall Grade: 77
